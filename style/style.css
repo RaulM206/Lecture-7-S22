@@ -3,6 +3,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border;
+    border: 1px solid black;
 }
 
 /* body{
@@ -17,4 +18,36 @@ p{
 #container{
     width: 80%;
     margin: 0 auto;
+}
+
+#navigation{
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 20% repeat(5, auto) 20%;
+}
+
+a{
+    text-align: center;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.moveForward{
+    grid-column-start: 2;
+}
+
+.centerText{
+    text-align: center;
+    padding: 10px 0;
+}
+
+#blogcontainer{
+    display: grid;
+    height: 300px;
+    background-color: red;
+    grid-template-columns: 70% auto;
+}
+
+.article{
+    color: blue
 }
